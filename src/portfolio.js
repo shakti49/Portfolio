@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Shakti's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Shakti Mishra Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -19,9 +19,9 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Shakti Mishra",
+  logo_name: "Shakti_Mishra",
+  nickname: "Hii_Shakti",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
@@ -32,23 +32,23 @@ const greeting = {
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
+  // github: "https://github.com/shakti49",
+  // linkedin: "https://www.linkedin.com/in/shakti-mishra49/",
+  // gmail: "mshakti49@gmail.com",
   // gitlab: "https://gitlab.com/ashutoshhathidara98",
   // facebook: "https://www.facebook.com/laymanbrother.19/",
   // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
+  // instagram: "https://www.instagram.com/Hii_Shakti/"
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/shakti49",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/shakti-mishra49/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -60,7 +60,7 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:mshakti49@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -78,7 +78,7 @@ const socialMediaLinks = [
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/hii_shakti/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -739,18 +739,18 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "Gurgaon , Haryana 122001",
+    locality: "Gurgaon",
+    country: "India",
+    region: "Haryana",
+    postalCode: "122001",
+    streetAddress: "Gandhi Nagar",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/EkCE7a5d5RWiiDMd6",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Contact Number",
+    subtitle: "+91 82858-47520",
   },
 };
 
