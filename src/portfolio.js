@@ -204,7 +204,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "WhatsApp Image 2025-09-17 at 12.18.09 AM.jpeg",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
@@ -212,8 +212,8 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
+    link: "https://blogs.Shakti.com/",
+    avatar_image_path: "WhatsApp Image 2025-09-17 at 12.18.09 AM.jpeg",
   },
   addressSection: {
     title: "Address",
