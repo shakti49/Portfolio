@@ -72,7 +72,7 @@ const socialMediaLinks = [
   },
   {
     name: "Facebook",
-    link: "https://https://www.facebook.com/shakti.mishra.3348/",
+    link: "https://www.facebook.com/shakti.mishra.3348/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
@@ -238,12 +238,10 @@ export {
   greeting,
   socialMediaLinks,
   skills,
-  competitiveSites,
   degrees,
   certifications,
   experience,
   projectsHeader,
-  publicationsHeader,
-  publications,
   contactPageData,
 };
+
