@@ -26,6 +26,7 @@ const greeting = {
     "https://drive.google.com/file/d/11nYx13zzkijjeH826_sBdVhBooR8OR2A/view",
   portfolio_repository: "https://github.com/shakti49/Portfolio",
   githubProfile: "https://github.com/shakti49",
+  profile_image_path: "https://avatars.githubusercontent.com/u/107062157?v=4",
 };
 // Social / Blog Links
 const socialMediaLinks = [
@@ -242,7 +243,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "WhatsApp Image 2025-09-17 at 12.18.09 AM.jpeg",
+    profile_image_path: "https://avatars.githubusercontent.com/u/107062157?v=4",
     description:
       "Feel free to reach out for CRM, cloud, testing, or operations roles. Open to internships and freelance opportunities — I reply within 24 hours.",
   },
@@ -250,7 +251,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle: "I document my professional journey and technical learnings.",
     link: "https://blogs.Shakti.com/",
-    avatar_image_path: "WhatsApp Image 2025-09-17 at 12.18.09 AM.jpeg",
+    avatar_image_path: "https://avatars.githubusercontent.com/u/107062157?v=4",
   },
   addressSection: {
     title: "Address",
@@ -268,10 +269,8 @@ const contactPageData = {
     subtitle: "+91 82858-47520",
   },
 };
-
 // Competitive Sites
 const competitiveSites = [];
-
 // Export for all sections (maintain structure; add new ones)
 export {
   settings,
