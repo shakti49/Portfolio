@@ -1,34 +1,41 @@
 {
 	"title": "Experience",
-	"subtitle": "Work, Internship and Volunteership",
-	"description":
-		"I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+	"subtitle": "Work, Internship and Projects",
+	"description": "Motivated professional with hands-on experience in Zoho CRM, Zoho Creator, software testing, cloud computing, sales, and operations. I have worked across various domains including CRM development, quality assurance, sales consulting, and operations management. I am passionate about technology and continuously learning new skills.",
 	"header_image_path": "experience.svg",
 	"sections": [
 		{
 			"title": "Work",
 			"experiences": [
 				{
-					"title": "Android and ML Developer",
-					"company": "Muffito Incorporation",
-					"company_url": "https://www.linkedin.com/company/muffito-inc/about/",
-					"logo_path": "muffito_logo.png",
-					"duration": "May 2018 - Oct 2018",
-					"location": "Pune, Maharashtra",
-					"description":
-						"I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-					"color": "#9b1578"
+					"title": "Freelance Software Tester",
+					"company": "uTest",
+					"company_url": "https://www.utest.com/",
+					"logo_path": "utest_logo.png",
+					"duration": "Dec 2020 - Present",
+					"location": "Remote",
+					"description": "Performing functional, usability, and exploratory testing on web & mobile applications. Identifying and reporting bugs, ensuring quality assurance for global clients. Conducting test cases for various platforms, including Windows, Android, and iOS. Testing new features, UI/UX, and overall performance of applications. Collaborating with a community of testers to improve product quality.",
+					"color": "#0066cc"
 				},
 				{
-					"title": "Android Developer",
-					"company": "FreeCopy Pvt. Ltd.",
-					"company_url": "https://www.linkedin.com/company/freecopy/about/",
-					"logo_path": "freecopy_logo.png",
-					"duration": "Nov 2017 - Dec 2017",
-					"location": "Ahmedabad, Gujarat",
-					"description":
-						"FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+					"title": "Senior Associate Sales Consultant",
+					"company": "Paisabazaar",
+					"company_url": "https://www.paisabazaar.com/",
+					"logo_path": "paisabazaar_logo.png",
+					"duration": "Dec 2022 - Apr 2023",
+					"location": "India",
+					"description": "Assisted clients in securing business loans, consistently achieving sales targets. Built and maintained strong client relationships, ensuring high satisfaction rates.",
 					"color": "#fc1f20"
+				},
+				{
+					"title": "Senior Operations & Multifunctional Executive",
+					"company": "Night Angles by PC",
+					"company_url": "#",
+					"logo_path": "nightangels_logo.png",
+					"duration": "Feb 2020 - Dec 2022",
+					"location": "India",
+					"description": "Delivered excellent customer support and managed administrative functions. Handled billing, barcoding, payroll, production and inventory to streamline operations.",
+					"color": "#9b1578"
 				}
 			]
 		},
@@ -36,20 +43,61 @@
 			"title": "Internships",
 			"experiences": [
 				{
-					"title": "Data Science Research Intern",
-					"company": "Delhivery Pvt. Ltd.",
-					"company_url": "https://www.delhivery.com/",
-					"logo_path": "delhivery_logo.png",
-					"duration": "May 2019 - Sept 2019",
-					"location": "Gurgaon, Haryana",
-					"description": "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+					"title": "Cloud Intern",
+					"company": "Exlearn Technologies",
+					"company_url": "#",
+					"logo_path": "exlearn_logo.png",
+					"duration": "Jul 2025",
+					"location": "Virtual",
+					"description": "Completed virtual internship in Cloud Computing & DevOps fundamentals. Gained hands-on experience with AWS (EC2, S3), Linux commands, Git, and Docker. Completed project and received Training & Internship Certificate. Explored basic CI/CD concepts and real-time cloud tasks.",
 					"color": "#ee3c26"
+				},
+				{
+					"title": "Fundraising Intern",
+					"company": "Muskurahat Foundation",
+					"company_url": "#",
+					"logo_path": "muskurahat_logo.png",
+					"duration": "May 2025",
+					"location": "Remote",
+					"description": "Successfully completed a 30-day internship as a Fundraising Intern at Muskurahat Foundation. Developed communication, persuasion, and project coordination skills. Collaborated with a remote team to design impactful fundraising strategies and improve donor engagement.",
+					"color": "#34a853"
 				}
 			]
 		},
 		{
-			"title": "Volunteerships",
-			"experiences": []
+			"title": "Projects",
+			"experiences": [
+				{
+					"title": "Zoho Creator CRM Integration App",
+					"company": "Personal Project",
+					"company_url": "#",
+					"logo_path": "zoho_logo.png",
+					"duration": "Jul 2025",
+					"location": "Self-initiated",
+					"description": "Developed a Zoho Creator app to sync form submissions to Zoho CRM's Lead module. Used Deluge scripting to check if a lead with the same email already exists — if found, it updates the record, else it creates a new one. Hands-on experience with Creator workflows, CRM integration, and conditional logic in scripting.",
+					"color": "#f44336"
+				},
+				{
+					"title": "CRM Contact & Account Auto-Sync",
+					"company": "Personal Project",
+					"company_url": "#",
+					"logo_path": "zoho_logo.png",
+					"duration": "Jul 2025",
+					"location": "Self-initiated",
+					"description": "Built logic in Zoho Creator to sync contact form data with Zoho CRM's Contact and Account modules. Checks if a contact email already exists in CRM, updates it if found, or creates a new contact. Also links the record with the associated Account in CRM. Implemented using Deluge and dynamic record lookups.",
+					"color": "#2196f3"
+				},
+				{
+					"title": "Expense Tracker",
+					"company": "Personal Project",
+					"company_url": "#",
+					"logo_path": "zoho_logo.png",
+					"duration": "Jul 2025",
+					"location": "Self-initiated",
+					"description": "Designed and developed a fully functional Expense Tracker App using Zoho Creator. Created custom forms with validation, built dynamic reports with sorting and filters, and visualized data using charts (category-wise expenses). Developed an interactive dashboard combining multiple components. Applied Deluge scripting for input validation and automation logic.",
+					"color": "#ff9800"
+				}
+			]
 		}
 	]
 }
