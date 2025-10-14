@@ -287,5 +287,5 @@ export {
   experience,
   projectsHeader,
   contactPageData,
-  competitiveSites,
+  competitiveSites // yahi line add karna hai, 'export' keyword naa ho!
 };
