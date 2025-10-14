@@ -1,15 +1,16 @@
-/* Change this file to get your personal Porfolio */
+/* Change this file to get your personal Portfolio */
+/* ===== Shakti Mishra Portfolio (Personalized) ===== */
 
-/* ===== Shakti Mishra Portfolio ===== */
-
+// Global Settings
 const settings = {
   isSplash: true,
 };
 
+// SEO
 const seo = {
   title: "Shakti's Portfolio",
   description:
-    "Aspiring Zoho CRM Specialist | CRM & Sales Operations | Open to Internship & Freelance Roles. 4+ years of experience in customer support, sales, operations, and software testing.",
+    "Aspiring Zoho CRM Specialist | CRM & Sales Operations | Open to Internship & Freelance Roles. 4+ years of experience in customer support, sales, operations, cloud, and software testing.",
   og: {
     title: "Shakti Mishra Portfolio",
     type: "website",
@@ -17,74 +18,100 @@ const seo = {
   },
 };
 
-//Home Page
+// Greeting / Summary (About)
 const greeting = {
   title: "Shakti Mishra",
   logo_name: "Shakti_Mishra",
   nickname: "Hii_Shakti",
   subTitle:
-    "Tech enthusiast & lifelong learner with 4+ years of experience in customer support, sales, operations, cloud, and software testing. Aspiring Zoho CRM Specialist, open to internship & freelance roles.",
+    "Tech enthusiast and lifelong learner with 4+ years across customer support, sales, operations, cloud, and software testing. Passionate about CRM implementations (Zoho/Salesforce), data-driven operations, and crafting seamless user experiences. Open to internships and freelance roles.",
   resumeLink:
     "https://drive.google.com/file/d/11nYx13zzkijjeH826_sBdVhBooR8OR2A/view",
   portfolio_repository: "https://github.com/shakti49/Portfolio",
   githubProfile: "https://github.com/shakti49",
 };
 
+// Social / Blog Links
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/shakti49",
-  // linkedin: "https://www.linkedin.com/in/shakti-mishra49/",
-  // gmail: "mshakti49@gmail.com",
-  // gitlab: "https://gitlab.com/Shakti8",
-  // facebook: "https://www.facebook.com/shakti.mishra.3348",
-  // twitter: "https://x.com/hii_shakti?t=Mc1aNEA76RNY68J-_cdUzw&s=09",
-  // instagram: "https://www.instagram.com/Hii_Shakti/"
-
   {
     name: "Github",
     link: "https://github.com/shakti49",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/shakti-mishra49/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+    fontAwesomeIcon: "fa-linkedin-in",
+    backgroundColor: "#0077B5",
   },
   {
     name: "YouTube",
     link: "https://youtube.com/Shakti",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+    fontAwesomeIcon: "fa-youtube",
+    backgroundColor: "#FF0000",
   },
   {
     name: "Gmail",
     link: "mailto:mshakti49@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    fontAwesomeIcon: "fa-google",
+    backgroundColor: "#D14836",
   },
   {
     name: "X-Twitter",
     link: "https://x.com/hii_shakti?t=Mc1aNEA76RNY68J-_cdUzw&s=09",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
+    fontAwesomeIcon: "fa-x-twitter",
+    backgroundColor: "#000000",
   },
   {
     name: "Facebook",
     link: "https://www.facebook.com/shakti.mishra.3348/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+    fontAwesomeIcon: "fa-facebook-f",
+    backgroundColor: "#1877F2",
   },
   {
     name: "Instagram",
     link: "https://www.instagram.com/hii_shakti/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    fontAwesomeIcon: "fa-instagram",
+    backgroundColor: "#E4405F",
+  },
+  {
+    name: "Blog",
+    link: "https://blogs.Shakti.com/",
+    fontAwesomeIcon: "fa-rss",
+    backgroundColor: "#FFA500",
   },
 ];
 
-import { skills } from "./portfolio-skills"; // (keep the skills section as-is from your current file)
+// Skills Highlights (import or inline)
+// If using external file keep import. Otherwise, define here.
+// Keeping import to maintain project structure if present.
+import { skills } from "./portfolio-skills";
+
+// Profile Strength (custom section)
+const profileStrength = {
+  title: "Profile Strength",
+  summary: [
+    "CRM: Zoho CRM (customization, automation), Salesforce (basics)",
+    "Cloud: AWS basics (EC2, S3, IAM), networking fundamentals",
+    "Testing: Functional, exploratory, usability (uTest)",
+    "Operations & Sales: BPO ops, lending ops, fundraising",
+    "Tools: Excel/Sheets, Git/GitHub, Postman (basics)",
+  ],
+  indicator: 80, // percentage visualization in UI if supported
+};
+
+// Interests (custom section)
+const interests = {
+  title: "Interests",
+  items: [
+    "CRM automation & sales operations",
+    "Cloud fundamentals and cost optimization",
+    "Product testing and QA workflows",
+    "No-code tools and integrations",
+    "Personal finance and fintech",
+  ],
+};
 
 /* === Education === */
 const degrees = {
@@ -103,7 +130,8 @@ const degrees = {
     },
   ],
 };
-/* === Certifications === */
+
+/* === Certifications (from Resume/LinkedIn) === */
 const certifications = {
   certifications: [
     {
@@ -114,6 +142,7 @@ const certifications = {
         "https://drive.google.com/file/d/11nYx13zzkijjeH826_sBdVhBooR8OR2A/view",
       alt_name: "AWS",
       color_code: "#FF9900",
+      issued: "2025",
     },
     {
       title: "Zoho CRM",
@@ -122,11 +151,31 @@ const certifications = {
       certificate_link: "https://lnkd.in/duV9gtg5",
       alt_name: "Zoho",
       color_code: "#D83B01",
+      issued: "2024",
     },
   ],
 };
+
+/* === Featured / Achievements (custom section) === */
+const featured = {
+  title: "Featured & Achievements",
+  items: [
+    {
+      label: "uTest Top Tester Streak",
+      description:
+        "Consistent delivery of high-quality bug reports and test feedback across multiple projects.",
+      link: "https://www.utest.com/",
+    },
+    {
+      label: "Fundraising Impact",
+      description:
+        "Planned and executed fundraising strategies at Muskurahat Foundation, improving donor engagement.",
+      link: "https://muskurahat.org.in/",
+    },
+  ],
+};
+
 // Experience Page
-/* === Experience === */
 const experience = {
   title: "Experience",
   subtitle: "Work & Internships",
@@ -193,6 +242,7 @@ const experience = {
     },
   ],
 };
+
 // Projects Page
 const projectsHeader = {
   title: "Projects",
@@ -200,6 +250,7 @@ const projectsHeader = {
     "My projects make use of a variety of technologies, especially CRM integrations, cloud, and testing automation.",
   avatar_image_path: "projects_image.svg",
 };
+
 // Contact Page
 const contactPageData = {
   contactSection: {
@@ -210,8 +261,7 @@ const contactPageData = {
   },
   blogSection: {
     title: "Blogs",
-    subtitle:
-      "I document my professional journey and technical learnings.",
+    subtitle: "I document my professional journey and technical learnings.",
     link: "https://blogs.Shakti.com/",
     avatar_image_path: "WhatsApp Image 2025-09-17 at 12.18.09 AM.jpeg",
   },
@@ -232,16 +282,19 @@ const contactPageData = {
   },
 };
 
+// Export for all sections (maintain structure; add new ones)
 export {
   settings,
   seo,
   greeting,
   socialMediaLinks,
   skills,
+  profileStrength,
+  interests,
   degrees,
   certifications,
+  featured,
   experience,
   projectsHeader,
   contactPageData,
 };
-
