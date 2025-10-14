@@ -1,9 +1,14 @@
 /* Change this file to get your personal Portfolio */
 /* ===== Shakti Mishra Portfolio (Personalized) ===== */
+
+// Import statement at the top
+import { skills } from "./portfolio-skills";
+
 // Global Settings
 const settings = {
   isSplash: true,
 };
+
 // SEO
 const seo = {
   title: "Shakti's Portfolio",
@@ -15,6 +20,7 @@ const seo = {
     url: "https://shakti49.github.io",
   },
 };
+
 // Greeting / Summary (About)
 const greeting = {
   title: "Shakti Mishra",
@@ -28,6 +34,7 @@ const greeting = {
   githubProfile: "https://github.com/shakti49",
   profile_image_path: "https://avatars.githubusercontent.com/u/107062157?v=4",
 };
+
 // Social / Blog Links
 const socialMediaLinks = [
   {
@@ -79,10 +86,7 @@ const socialMediaLinks = [
     backgroundColor: "#FFA500",
   },
 ];
-// Skills Highlights (import or inline)
-// If using external file keep import. Otherwise, define here.
-// Keeping import to maintain project structure if present.
-import { skills } from "./portfolio-skills";
+
 // Profile Strength (custom section)
 const profileStrength = {
   title: "Profile Strength",
@@ -95,6 +99,7 @@ const profileStrength = {
   ],
   indicator: 80, // percentage visualization in UI if supported
 };
+
 // Interests (custom section)
 const interests = {
   title: "Interests",
@@ -106,6 +111,7 @@ const interests = {
     "Personal finance and fintech",
   ],
 };
+
 /* === Education === */
 const degrees = {
   degrees: [
@@ -123,6 +129,7 @@ const degrees = {
     },
   ],
 };
+
 /* === Certifications (from Resume/LinkedIn) === */
 const certifications = {
   certifications: [
@@ -147,6 +154,7 @@ const certifications = {
     },
   ],
 };
+
 /* === Featured / Achievements (custom section) === */
 const featured = {
   title: "Featured & Achievements",
@@ -165,6 +173,7 @@ const featured = {
     },
   ],
 };
+
 // Experience Page
 const experience = {
   title: "Experience",
@@ -232,6 +241,7 @@ const experience = {
     },
   ],
 };
+
 // Projects Page
 const projectsHeader = {
   title: "Projects",
@@ -239,6 +249,15 @@ const projectsHeader = {
     "My projects make use of a variety of technologies, especially CRM integrations, cloud, and testing automation.",
   avatar_image_path: "projects_image.svg",
 };
+
+// Publications Header
+const publicationsHeader = {
+  title: "Publications",
+  description:
+    "Here are some of my published articles, research papers, and technical writings.",
+  avatar_image_path: "publications_image.svg",
+};
+
 // Contact Page
 const contactPageData = {
   contactSection: {
@@ -269,11 +288,14 @@ const contactPageData = {
     subtitle: "+91 82858-47520",
   },
 };
+
 // Competitive Sites
 const competitiveSites = [];
+
 // Publications
 const publications = [];
-// Export for all sections (maintain structure; add new ones)
+
+// Export for all sections (complete export with all required items)
 export {
   settings,
   seo,
@@ -287,7 +309,8 @@ export {
   featured,
   experience,
   projectsHeader,
+  publicationsHeader,
   contactPageData,
   competitiveSites,
-  publications
+  publications,
 };
