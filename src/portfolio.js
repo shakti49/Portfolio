@@ -270,7 +270,7 @@ const contactPageData = {
 };
 
 // Competitive Sites
-export const competitiveSites = [];
+const competitiveSites = [];
 
 // Export for all sections (maintain structure; add new ones)
 export {
