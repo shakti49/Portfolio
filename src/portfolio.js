@@ -271,6 +271,8 @@ const contactPageData = {
 };
 // Competitive Sites
 const competitiveSites = [];
+// Publications
+const publications = [];
 // Export for all sections (maintain structure; add new ones)
 export {
   settings,
@@ -286,5 +288,6 @@ export {
   experience,
   projectsHeader,
   contactPageData,
-  competitiveSites // yahi line add karna hai, 'export' keyword naa ho!
+  competitiveSites,
+  publications
 };
