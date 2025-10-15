@@ -4,6 +4,7 @@
   margin: 0px auto;
   margin-top: 4rem;
 }
+
 .greet-main {
   width: 90%;
   padding: 20px 10px;
@@ -25,9 +26,21 @@
   flex: 1;
   margin-bottom: 30px;
 }
+
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
+}
+
+.main-name {
+  font-size: 3rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: bold;
+  color: #034694;
+  letter-spacing: 2px;
+  margin-top: 40px;
+  text-align: center;
+  text-shadow: 1px 1px 6px #aaa;
 }
 
 .greeting-text {
@@ -64,6 +77,7 @@
     font-size: 20px;
   }
 }
+
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
@@ -86,7 +100,6 @@
   .greeting-main {
     display: block;
   }
-
   .portfolio-repo-btn-div {
     width: 100%;
     display: flex;
