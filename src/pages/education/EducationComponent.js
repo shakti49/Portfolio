@@ -10,7 +10,6 @@ import { competitiveSites } from "../../portfolio";
 import { certifications } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
-
 class Education extends Component {
   render() {
     const theme = this.props.theme;
@@ -21,7 +20,7 @@ class Education extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
               <div className="heading-img-div">
-                {/* <img
+                {/* 								<img
 									src={require("../../assets/images/education.svg")}
 									alt=""
 								/> */}
@@ -49,5 +48,4 @@ class Education extends Component {
     );
   }
 }
-
 export default Education;
