@@ -4,70 +4,62 @@
   margin: 0px auto;
   margin-top: 4rem;
 }
-
 .greet-main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
 }
-
 .gretting-main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
 }
-
 .greeting-main {
   display: flex;
 }
-
 .greeting-main > * {
   flex: 1;
   margin-bottom: 30px;
 }
-
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
 }
-
 .main-name {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: 'Montserrat', Arial, sans-serif;
-  font-weight: bold;
-  color: #034694;
+  font-weight: 800;
+  color: #007bff;
   letter-spacing: 2px;
-  margin-top: 40px;
+  margin-top: 48px;
   text-align: center;
-  text-shadow: 1px 1px 6px #aaa;
+  text-shadow: 2px 3px 10px #aaa, 0 0 2px #3a3a3a;
+  background: linear-gradient(90deg, #0366d6, #68a6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 .greeting-text {
   margin-top: 80px;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
 }
-
 .greeting-nickname {
   font-size: 30px;
   line-height: 0px;
   font-family: "Google Sans Bold Italic";
 }
-
 .greeting-text-p {
   font-size: 40px;
   line-height: 40px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
 }
-
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
 }
-
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
@@ -77,7 +69,6 @@
     font-size: 20px;
   }
 }
-
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
