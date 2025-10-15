@@ -26,7 +26,6 @@ const Contact = ({ theme }) => {
         <p className="contact-header-detail-text subTitle" style={subStyle}>
           I'd love to connect. Reach me via email or LinkedIn for opportunities or collaboration.
         </p>
-
         <div style={{ marginTop: 24 }}>
           <p className="contact-header-detail-text" style={itemStyle}>
             Email: <a href={`mailto:${contact.email}`} style={{ color: theme?.accentBright }}>{contact.email}</a>
@@ -38,7 +37,7 @@ const Contact = ({ theme }) => {
             Location: {contact.location}
           </p>
           <p className="contact-header-detail-text" style={itemStyle}>
-            LinkedIn: <a href={contact.linkedin} target="_blank" rel="noreferrer" style={{ color: theme?.accentBright }}>{contact.linkedin}</a>
+            LinkedIn: <a href={contact.linkedin} target="_blank" rel="noopener noreferrer" style={{ color: theme?.accentBright }}>{contact.linkedin}</a>
           </p>
         </div>
       </div>
