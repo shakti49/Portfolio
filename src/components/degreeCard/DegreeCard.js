@@ -23,15 +23,9 @@ class DegreeCard extends Component {
             </div>
           </Flip>
         )}
-        <Fade right duration={2000} distance="40px">
-          <div
-            className="card-body"
-            style={{ width: degree.logo_path ? "90%" : "100%" }}
-          >
-            <div
-              className="body-header"
-              style={{ backgroundColor: theme.headerColor }}
-            >
+        <Fade right distance="40px" duration={2000}>
+          <div className="card-body" style={{ width: degree.logo_path ? "90%" : "100%" }}>
+            <div className="body-header" style={{ backgroundColor: theme.headerColor }}>
               <div className="body-header-title">
                 <h2 className="card-title" style={{ color: theme.text }}>
                   {degree.title}
@@ -47,26 +41,19 @@ class DegreeCard extends Component {
               </div>
             </div>
             <div className="body-content">
-              {degree.descriptions.map((sentence) => {
-                return (
-                  <p className="content-list" style={{ color: theme.text }}>
-                    {sentence}
-                  </p>
-                );
-              })}
+              {degree.descriptions.map((sentence, index) => (
+                <p key={index} className="content-list" style={{ color: theme.text }}>
+                  {sentence}
+                </p>
+              ))}
               {degree.website_link && (
                 <a
                   href={degree.website_link}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div
-                    className="visit-btn"
-                    style={{ backgroundColor: theme.headerColor }}
-                  >
-                    <p className="btn" style={{ color: theme.text }}>
-                      Visit Website
-                    </p>
+                  <div className="visit-btn" style={{ backgroundColor: theme.headerColor }}>
+                    <p className="btn" style={{ color: theme.text }}>Visit Website</p>
                   </div>
                 </a>
               )}
