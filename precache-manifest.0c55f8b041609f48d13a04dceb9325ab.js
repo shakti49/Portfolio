@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e29d4470de641ed5902aee8ff42b7f78",
+    "revision": "5275f99b1ebde44f469019815abe5684",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "336c8b4825ee2fdbda60",
+    "revision": "8fe651de249b4f2a4264",
     "url": "/Portfolio/static/css/main.284ce892.chunk.css"
   },
   {
-    "revision": "1e8644f54287f832c6bc",
-    "url": "/Portfolio/static/js/2.f4baa596.chunk.js"
+    "revision": "1abac05dcc51d1a9e318",
+    "url": "/Portfolio/static/js/2.dce471a1.chunk.js"
   },
   {
-    "revision": "336c8b4825ee2fdbda60",
-    "url": "/Portfolio/static/js/main.1909e641.chunk.js"
+    "revision": "8fe651de249b4f2a4264",
+    "url": "/Portfolio/static/js/main.dff409b8.chunk.js"
   },
   {
     "revision": "0792ebc6f8568e31125f",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "16559172ca1d4d552390b48f19e102ba",
     "url": "/Portfolio/static/media/address_image.16559172.svg"
+  },
+  {
+    "revision": "f166a3d57a86ae915099135632a0813f",
+    "url": "/Portfolio/static/media/animated_Shakti.png.f166a3d5.jpg"
   },
   {
     "revision": "eaf02c2d0158b6b4b8c2a0a0cf830a04",
